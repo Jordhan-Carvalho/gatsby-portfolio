@@ -5,16 +5,12 @@ import postStyles from "./postList.module.scss"
 const PostList = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allContentfulBlogPost(sort: { fields: publishedDate, order: DESC }) {
         edges {
           node {
-            frontmatter {
-              title
-              date
-            }
-            fields {
-              slug
-            }
+            title
+            slug
+            publishedDate(fromNow: true)
           }
         }
       }
@@ -23,11 +19,11 @@ const PostList = () => {
 
   return (
     <ol className={postStyles.posts}>
-      {data.allMarkdownRemark.edges.map(each => (
-        <li className={postStyles.post} key={each.node.frontmatter.title}>
-          <Link to={`/blog/${each.node.fields.slug}`}>
-            <h2>{each.node.frontmatter.title}</h2>
-            <p>{each.node.frontmatter.date}</p>
+      {data.allContentfulBlogPost.edges.map(each => (
+        <li className={postStyles.post} key={each.node.title}>
+          <Link to={`/blog/${each.node.slug}`}>
+            <h2>{each.node.title}</h2>
+            <p>{each.node.publishedDate}</p>
           </Link>
         </li>
       ))}
