@@ -1,0 +1,88 @@
+/* go on then, styles go here.. knock yourself out! */
+
+$spacing-unit: 24px;
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+.profile-card {
+  height: 310px;
+  width: 100%;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    a {
+      position: relative;
+    }
+
+    a:before {
+      content: "";
+      border: 15px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      height: 90px;
+      width: 90px;
+      position: absolute;
+      left: 0;
+      bottom: 3px;
+      animation: pulsate 1.6s ease-out;
+      animation-iteration-count: infinite;
+      opacity: 0;
+      z-index: 99;
+    }
+
+    img {
+      position: relative;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      padding: 0;
+      margin: 0;
+      border: 15px solid transparent;
+      margin-top: $spacing-unit / 2;
+      z-index: 9999;
+      transition: all 0.3s ease-out;
+    }
+
+    a:hover img {
+      transform: scale(1.06, 1.06);
+    }
+
+    a:hover:before {
+      animation: none;
+    }
+  }
+
+  .profile-bio {
+    position: absolute;
+    bottom: 0;
+
+    p {
+      text-align: center;
+      opacity: 0.9;
+    }
+  }
+}
+
+.links {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
