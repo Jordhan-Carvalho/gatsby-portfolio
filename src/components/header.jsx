@@ -28,29 +28,20 @@ const Header = () => {
           </li>
           <li className={headerStyles.example05}>
             <Link
+              to="/projects"
+              activeClassName={headerStyles.activeNavItem}
+              className={headerStyles.navItem}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className={headerStyles.example05}>
+            <Link
               to="/blog"
               activeClassName={headerStyles.activeNavItem}
               className={headerStyles.navItem}
             >
               Blog
-            </Link>
-          </li>
-          <li className={headerStyles.example05}>
-            <Link
-              to="/about"
-              activeClassName={headerStyles.activeNavItem}
-              className={headerStyles.navItem}
-            >
-              About
-            </Link>
-          </li>
-          <li className={headerStyles.example05}>
-            <Link
-              to="/contact"
-              activeClassName={headerStyles.activeNavItem}
-              className={headerStyles.navItem}
-            >
-              Contact{" "}
             </Link>
           </li>
         </ul>

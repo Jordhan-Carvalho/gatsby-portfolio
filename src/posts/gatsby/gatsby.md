@@ -1,14 +1,12 @@
 ---
-title: "My gatsby blog"
+title: "Myblog"
 date: "2019-04-04"
 ---
 
-I just launched a new bootcamp!
+Testing blog.
 
 ![Grass](./grass.png)
 
-## Topics Covered
+## Markdown
 
-1. Gatsby
-2. GraphQL
-3. React
+Testing blog
