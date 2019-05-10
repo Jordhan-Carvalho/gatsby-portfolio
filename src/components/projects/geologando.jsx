@@ -57,7 +57,7 @@ const Geologando = () => {
             href="https://geologando.com.br"
             target="_blank"
             className="module-card-button"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Live
           </a>

@@ -57,7 +57,7 @@ const CentralBudget = () => {
             href="https://central-budget.herokuapp.com"
             target="_blank"
             className="module-card-button"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Live
           </a>

@@ -68,7 +68,7 @@ const MindId = () => {
           <a
             href="https://minid.app"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="module-card-button"
           >
             Live

@@ -18,7 +18,7 @@ const IndexPage = () => {
             <aside className={indexStyles.profileCard}>
               <header>
                 <a href="http://jordhan.dev">
-                  <img src="https://i.imgur.com/pdvyhef.jpg" alt="profile image"/>
+                  <img src="https://i.imgur.com/pdvyhef.jpg" alt="profile"/>
                 </a>
                 <h1>Jordhan Carvalho</h1>
                 <h3>Full Stack Web Developer</h3>
@@ -33,9 +33,9 @@ const IndexPage = () => {
             <div>
             <h1>
             <a href="mailto:jordhan.rdz@gmail.com" target="_top" className={indexStyles.links} > <IoMdMail /> </a>
-              <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jordhan-carvalho-536401134/" className={indexStyles.links}> <FaLinkedin /> </a>
-             <a target='_blank' rel="noopener" className={indexStyles.links} href="https://www.facebook.com/jordhanpc"> <FaFacebook /> </a> 
-             <a target="_blank" rel="noopener" href="https://github.com/Jordhan-Carvalho" className={indexStyles.links}> <FaGithub /> </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jordhan-carvalho-536401134/" className={indexStyles.links}> <FaLinkedin /> </a>
+             <a target='_blank' rel="noopener noreferrer" className={indexStyles.links} href="https://www.facebook.com/jordhanpc"> <FaFacebook /> </a> 
+             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Jordhan-Carvalho" className={indexStyles.links}> <FaGithub /> </a>
              </h1>
             </div>
             </div>

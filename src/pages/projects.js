@@ -1,4 +1,5 @@
 import React from 'react'
+import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
 import Layout from '../components/layout'
 import Head from '../components/head'
 import MinID from '../components/projects/minid'
@@ -18,11 +19,10 @@ const ProjectsPage = () => {
             <CentralBudget />
             <JordhanDev />
             <Geologando />
-            {/* <Budget /> */}
-            {/* <PigGame />
-            <ColorGame /> */}
             <WikiSearch />
-            
+            <ScrollUpButton 
+            ShowAtPosition={900}
+            />
         </Layout>
      );
 }

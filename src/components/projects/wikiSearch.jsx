@@ -45,7 +45,7 @@ const WikiSearch = () => {
             href="http://spiffy-flame.surge.sh/"
             target="_blank"
             className="module-card-button"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Live
           </a>

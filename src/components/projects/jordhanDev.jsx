@@ -47,7 +47,7 @@ const JordhanDev = () => {
             href="https://jordhan.dev"
             target="_blank"
             className="module-card-button"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Live
           </a>
