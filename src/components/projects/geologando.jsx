@@ -7,7 +7,6 @@ import {
   DiWordpress,
   DiMysql,
 } from "react-icons/di"
-import GeologandoImg from "./geologandoJ.jpg"
 
 const Geologando = () => {
   return (
@@ -23,7 +22,7 @@ const Geologando = () => {
         </div>
         <div className="module-card-bottom">
           <img
-            src={GeologandoImg}
+            src="https://i.imgur.com/6j8SREX.jpg"
             alt="Geologando WebSite"
             className="module-card-img"
           />
@@ -58,6 +57,7 @@ const Geologando = () => {
             href="https://geologando.com.br"
             target="_blank"
             className="module-card-button"
+            rel="noopener"
           >
             Live
           </a>

@@ -1,6 +1,5 @@
 import React from "react"
 import { DiHtml5, DiCss3, DiJsBadge, DiJqueryLogo } from "react-icons/di"
-import WikiViewImg from "./wikiViewers.jpg"
 
 const WikiSearch = () => {
   return (
@@ -16,7 +15,7 @@ const WikiSearch = () => {
         </div>
         <div className="module-card-bottom">
           <img
-            src={WikiViewImg}
+            src="https://i.imgur.com/Y9A4Dtr.jpg"
             alt="WikiSearch WebApp"
             className="module-card-img"
           />
@@ -46,6 +45,7 @@ const WikiSearch = () => {
             href="http://spiffy-flame.surge.sh/"
             target="_blank"
             className="module-card-button"
+            rel="noopener"
           >
             Live
           </a>

@@ -8,7 +8,6 @@ import {
   DiNpm,
   DiHeroku,
 } from "react-icons/di"
-import CentralImage from "./centralBudgetJ.jpg"
 
 const CentralBudget = () => {
   return (
@@ -24,7 +23,7 @@ const CentralBudget = () => {
         </div>
         <div className="module-card-bottom">
           <img
-            src={CentralImage}
+            src="https://i.imgur.com/cpE6bug.jpg"
             alt="Central Budget App"
             className="module-card-img"
           />
@@ -58,6 +57,7 @@ const CentralBudget = () => {
             href="https://central-budget.herokuapp.com"
             target="_blank"
             className="module-card-button"
+            rel="noopener"
           >
             Live
           </a>
