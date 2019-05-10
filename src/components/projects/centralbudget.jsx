@@ -8,6 +8,7 @@ import {
   DiNpm,
   DiHeroku,
 } from "react-icons/di"
+import CentralImage from "./centralBudgetJ.jpg"
 
 const CentralBudget = () => {
   return (
@@ -18,11 +19,12 @@ const CentralBudget = () => {
           <img
             className="language-ico"
             src="https://img.icons8.com/color/48/000000/usa.png"
+            alt="usa icon"
           />
         </div>
         <div className="module-card-bottom">
           <img
-            src="https://i.imgur.com/Bqqiig0.jpg"
+            src={CentralImage}
             alt="Central Budget App"
             className="module-card-img"
           />

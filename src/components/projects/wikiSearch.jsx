@@ -1,5 +1,6 @@
 import React from "react"
 import { DiHtml5, DiCss3, DiJsBadge, DiJqueryLogo } from "react-icons/di"
+import WikiViewImg from "./wikiViewers.jpg"
 
 const WikiSearch = () => {
   return (
@@ -10,11 +11,12 @@ const WikiSearch = () => {
           <img
             className="language-ico"
             src="https://img.icons8.com/color/48/000000/usa.png"
+            alt="usa icon"
           />
         </div>
         <div className="module-card-bottom">
           <img
-            src="https://i.imgur.com/HSweR1Q.jpg"
+            src={WikiViewImg}
             alt="WikiSearch WebApp"
             className="module-card-img"
           />

@@ -9,6 +9,7 @@ import {
   DiMongodb,
   DiHeroku,
 } from "react-icons/di"
+import MinImage from "./minidJ.jpg"
 
 const MindId = () => {
   return (
@@ -19,14 +20,11 @@ const MindId = () => {
           <img
             className="language-ico"
             src="https://img.icons8.com/color/48/000000/brazil.png"
+            alt="Brazil icon"
           />
         </div>
         <div className="module-card-bottom">
-          <img
-            src="https://i.imgur.com/2bBapR3.jpg"
-            alt="MinID App"
-            className="module-card-img"
-          />
+          <img src={MinImage} alt="MinID web app" className="module-card-img" />
           <div>
             <h1>
               <DiHtml5 /> <DiCss3 /> <DiBootstrap /> <DiJsBadge /> <DiNodejs />{" "}

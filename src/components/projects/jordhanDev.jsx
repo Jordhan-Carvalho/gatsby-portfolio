@@ -1,6 +1,7 @@
 import React from "react"
 import { DiHtml5, DiCss3, DiReact, DiNpm } from "react-icons/di"
 import { GiAbstract100 } from "react-icons/gi"
+import JordhanDevImg from "./jordhanDev.jpg"
 
 const JordhanDev = () => {
   return (
@@ -11,11 +12,12 @@ const JordhanDev = () => {
           <img
             className="language-ico"
             src="https://img.icons8.com/color/48/000000/usa.png"
+            alt="usa icon"
           />
         </div>
         <div className="module-card-bottom">
           <img
-            src="https://i.imgur.com/lApmPi7.jpg"
+            src={JordhanDevImg}
             alt="Jordhan.Dev"
             className="module-card-img"
           />
