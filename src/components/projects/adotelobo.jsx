@@ -2,60 +2,60 @@ import React from "react"
 import {
   DiHtml5,
   DiCss3,
-  DiBootstrap,
-  DiFirebase,
   DiReact,
   DiNpm,
   DiHeroku,
+  DiJsBadge,
+  DiNodejs,
+  DiMongodb,
 } from "react-icons/di"
 
-const CentralBudget = () => {
+const AdoteLobo = () => {
   return (
     <div className="module-card-wrap">
       <div className="module-card">
-        <div className="module-card-title">Central Budget</div>
+        <div className="module-card-title">Adote Lobo</div>
         <div>
           <img
             className="language-ico"
-            src="https://img.icons8.com/color/48/000000/usa.png"
-            alt="usa icon"
+            src="https://img.icons8.com/color/48/000000/brazil.png"
+            alt="brazil icon"
           />
         </div>
         <div className="module-card-bottom">
           <img
-            src="https://i.imgur.com/cpE6bug.jpg"
-            alt="Central Budget App"
+            src="https://dl.jpeg.io/14442c98703272fc4009808e939001f6/adotelobo.jpg"
+            alt="Adote Lobo App"
             className="module-card-img"
           />
           <div>
             <h1>
-              <DiHtml5 /> <DiCss3 /> <DiBootstrap /> <DiReact /> <DiNpm />{" "}
-              <DiFirebase /> <DiHeroku />
+              <DiHtml5 /> <DiCss3 /> <DiJsBadge /> <DiNodejs /> <DiNpm />{" "}
+              <DiMongodb /> <DiReact /> <DiHeroku />
             </h1>
           </div>
           <div>
             <p>
-              Central Budget is a web app designed to help users control their
-              financial life, with expenses, incomes, graphics, and savings
-              functionality.
+              Adote LOBO is a platform for pet adoptions, which includes a
+              complete profile section for volunteers, with education and
+              work-related experiences.
             </p>
             <p>
               <strong>Features:</strong>
             </p>
             <ul>
-              <li>Authentication Using Google Sign-In (Firebase).</li>
-              <li>Unit testing with Jest and Enzyme.</li>
+              <li>User sign-in, sign-up, comments, and profile page.</li>
               <li>Full CRUD operations</li>
-              <li>Yearly graph analysis.</li>
+              <li>Complex profile setup</li>
             </ul>
             <p>
               <strong>Tech:</strong>
             </p>
-            <p>React, Redux, Bootstrap, Recharts, Firebase.</p>
+            <p>React, Redux, NodeJS, Express, JWT, MongoDB.</p>
           </div>
 
           <a
-            href="https://central-budget.herokuapp.com"
+            href="https://adotelobo.herokuapp.com/"
             target="_blank"
             className="module-card-button"
             rel="noopener noreferrer"
@@ -68,4 +68,4 @@ const CentralBudget = () => {
   )
 }
 
-export default CentralBudget
+export default AdoteLobo

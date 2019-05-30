@@ -26,17 +26,21 @@ const IndexPage = () => {
 
             </aside>
             <div className={indexStyles.profileBio}>
-            <p>Hey there! I'm Jordhan, a full-stack web developer living in Brazil. Although my professional path has taken many twists and turns — from a geologist to small business owner and entrepreneur, to programming — I've never stopped engaging my passion to help others and solve problems. As a web developer, I enjoy using my undeniable love for programming and building things to join people on their endeavor to make life better.
+            <p>Hey there! I'm Jordhan, a full-stack web developer living in Brazil. My professional path has taken many <Link to='/blog/aboutMe' className={indexStyles.links}>twists and turns</Link> — from a geologist to small business owner and entrepreneur, to programming — As a web developer, I enjoy using my undeniable love for programming and building things to help people on their endeavor to make life better.
             </p> 
             <p>
             Want to know more about my skills and experience? Visit the <Link to='/projects' className={indexStyles.links}>Projects</Link> section</p>
             <div>
-            <h1>
-            <a href="mailto:jordhan.rdz@gmail.com" target="_top" className={indexStyles.links} > <IoMdMail /> </a>
+           <h1>
+            <a href="mailto:carvalho@jordhan.dev" target="_top" className={indexStyles.links} > <IoMdMail /> </a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jordhan-carvalho-536401134/" className={indexStyles.links}> <FaLinkedin /> </a>
              <a target='_blank' rel="noopener noreferrer" className={indexStyles.links} href="https://www.facebook.com/jordhanpc"> <FaFacebook /> </a> 
              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Jordhan-Carvalho" className={indexStyles.links}> <FaGithub /> </a>
+             <a target="_blank" rel="noopener noreferrer" href="https://dev.to/jordhancarvalho">
+              <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" className="img-dev" alt="Jordhan Carvalho's DEV Profile" height="40" width="40" /> 
+             </a>
              </h1>
+             
             </div>
             </div>
         </Layout>
