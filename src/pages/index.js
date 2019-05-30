@@ -34,7 +34,6 @@ const IndexPage = () => {
            <h1>
             <a href="mailto:carvalho@jordhan.dev" target="_top" className={indexStyles.links} > <IoMdMail /> </a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jordhan-carvalho-536401134/" className={indexStyles.links}> <FaLinkedin /> </a>
-             <a target='_blank' rel="noopener noreferrer" className={indexStyles.links} href="https://www.facebook.com/jordhanpc"> <FaFacebook /> </a> 
              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Jordhan-Carvalho" className={indexStyles.links}> <FaGithub /> </a>
              <a target="_blank" rel="noopener noreferrer" href="https://dev.to/jordhancarvalho">
               <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" className="img-dev" alt="Jordhan Carvalho's DEV Profile" height="40" width="40" /> 
