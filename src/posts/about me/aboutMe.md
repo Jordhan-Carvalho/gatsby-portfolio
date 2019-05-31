@@ -10,7 +10,7 @@ Its a short read, not going to dive into details, just give out some key points 
 I came from a nontraditional programming background,
 the only contact I had with something close to 'programming' before the university was when I tried to build private online servers for MMORPG's, but it had more to do with Lego (copying code from somewhere and pasting it without comprehending) than programming itself.
 
-In 2012, I started a 5 year graduation program in geology from the Federal University of Bahia West, the first 2 years were ok, but at the start of 2014, I got struck by an autoimmune genetic disorder that had put all my life projects on hold.
+In 2012, I started a 5 year graduation program in geology from the Federal University of Western Bahia, the first 2 years were ok, but at the start of 2014, I got struck by an autoimmune genetic disorder that had put all my life projects on hold.
 
 After almost 3 years of trying countless treatments, medications, a facial paralysis, and some surgeries, the doctors finally found one medication/treatment that worked fine by controlling the symptoms, in fact, I could restart all my life projects again.
 
