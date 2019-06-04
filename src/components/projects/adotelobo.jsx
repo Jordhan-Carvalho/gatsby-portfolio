@@ -24,7 +24,7 @@ const AdoteLobo = () => {
         </div>
         <div className="module-card-bottom">
           <img
-            src="https://dl.jpeg.io/14442c98703272fc4009808e939001f6/adotelobo.jpg"
+            src="https://i.imgur.com/Mn3sB0p.jpg"
             alt="Adote Lobo App"
             className="module-card-img"
           />
