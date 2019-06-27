@@ -8,6 +8,8 @@ import Geologando from '../components/projects/geologando'
 import WikiSearch from '../components/projects/wikiSearch'
 import JordhanDev from '../components/projects/jordhanDev'
 import AdoteLobo from '../components/projects/adotelobo'
+import Fik from '../components/projects/fik'
+import AlugaBrasil from '../components/projects/alugabrasil'
 
 
 const ProjectsPage = () => {
@@ -17,10 +19,12 @@ const ProjectsPage = () => {
             <Head title="Projects"/>
             <h1>Projects</h1>
             <MinID />
-            <AdoteLobo />
+            <AlugaBrasil />
             <CentralBudget />
+            <AdoteLobo />
             <JordhanDev />
             <Geologando />
+            <Fik />
             <WikiSearch />
             <ScrollUpButton 
             ShowAtPosition={900}

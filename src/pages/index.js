@@ -26,7 +26,7 @@ const IndexPage = () => {
 
             </aside>
             <div className={indexStyles.profileBio}>
-            <p>Hey there! I'm Jordhan, a full-stack web developer living in Brazil. My professional path has taken many <Link to='/blog/aboutMe' className={indexStyles.links}>twists and turns</Link> — from a geologist to small business owner and entrepreneur, to programming — As a web developer, I enjoy using my undeniable love for programming and building things to help people on their endeavor to make life better.
+            <p>Hey there! I'm Jordhan, a full-stack web developer living in Brazil. As a web developer, I enjoy using my undeniable love for programming and building things to help people on their endeavor to make life better.
             </p> 
             <p>
             Want to know more about my skills and experience? Visit the <Link to='/projects' className={indexStyles.links}>Projects</Link> section</p>
