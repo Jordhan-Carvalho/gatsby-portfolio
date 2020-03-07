@@ -1,8 +1,8 @@
 ---
-title: "Extended About Me"
-subtitle: "In some tutorials, books, or videos, you might have seen the term magic number. What is that?"
+title: "Teste"
+subtitle: "Its a short read, not going to dive into details, just give out some key points that led me to pursue programming as a career"
 date: "30 de Abril de 2019"
-tags: ["Personal", "Teste"]
+tags: ["C", "Teste"]
 ---
 
 Its a short read, not going to dive into details, just give out some key points that led me to pursue programming as a career

@@ -10,7 +10,9 @@ const PostList = () => {
           node {
             frontmatter {
               title
+              subtitle
               date
+              tags
             }
             fields {
               slug
@@ -27,6 +29,7 @@ const PostList = () => {
         <li className={postStyles.post} key={each.node.frontmatter.title}>
           <Link to={`/blog/${each.node.fields.slug}`}>
             <h2>{each.node.frontmatter.title}</h2>
+            <p>{each.node.frontmatter.subtitle}</p>
             <p>{each.node.frontmatter.date}</p>
           </Link>
         </li>
