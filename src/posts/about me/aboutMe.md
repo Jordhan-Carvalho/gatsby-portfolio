@@ -1,11 +1,9 @@
 ---
 title: "Extended About Me"
-subtitle: "In some tutorials, books, or videos, you might have seen the term magic number. What is that?"
+subtitle: "Its a short read, not going to dive into details, just give out some key points that led me to pursue programming as a career"
 date: "30 de Abril de 2019"
-tags: ["Personal", "Teste"]
+tags: ["Personal", "English"]
 ---
-
-Its a short read, not going to dive into details, just give out some key points that led me to pursue programming as a career
 
 ### Nontraditional programming background
 
@@ -37,6 +35,6 @@ On my last semester in college, there was an opportunity to get together my prog
 
 ### Current path
 
-Althoug geology taught so many great things and had a great part on what a i became today... After the college, I decided to take a leap of faith and dive completly on doing what i really enjoy, to focus entirly on programming and web development.
+Althoug geology taught so many great things and had a great part on what a i became today... After the college, I decided to take a leap of faith and dive completly on doing what i really enjoy, to focus entirly on programming.
 
 ![grateful](./grateful.jpg)

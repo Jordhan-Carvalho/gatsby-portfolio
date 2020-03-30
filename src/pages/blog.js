@@ -10,10 +10,13 @@ const BlogPage = () => {
     <Layout>
       <Head title="Blog" />
       <h1>Blog</h1>
+      <p style={{ color: "grey", fontSize: 12 }}>
+        <em>Blog posts are in Portuguese-BR.</em>
+      </p>
       <p style={{ color: "grey" }}>
         <em>
-          Anotações pessoais, realizadas enquanto estou aprendendo algo novo ou
-          revendo velhos conceitos, decidi deixa-las públicas, pois poderá ser
+          Anotações pessoais realizadas enquanto estou aprendendo algo novo ou
+          revendo velhos conceitos. Decidi deixa-las públicas, pois poderá ser
           útil a mais alguém.
         </em>
       </p>

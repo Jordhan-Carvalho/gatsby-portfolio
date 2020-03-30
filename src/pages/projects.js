@@ -9,12 +9,14 @@ import JordhanDev from "../components/projects/jordhanDev"
 import AdoteLobo from "../components/projects/adotelobo"
 import Fik from "../components/projects/fik"
 import AlugaBrasil from "../components/projects/alugabrasil"
+import Vitrine from "../components/projects/vitrine"
 
 const ProjectsPage = () => {
   return (
     <Layout>
       <Head title="Projects" />
       <h1>Projects</h1>
+      <Vitrine />
       <MinID />
       <AlugaBrasil />
       <CentralBudget />
